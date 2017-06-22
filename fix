@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+const plist = require('plist');
+const pug = require('pug');
+const fs = require('fs');
+const path = require('path');
+const util = require('util');
+const PUG = path.join(__dirname, 'fix.pug');
+
+const readFile = util.promisify(fs.readFile);
+const writeFile = util.promisify(fs.writeFile);
+const files = process.argv.splice(2);
+
+Promise.all(files.map(async (file) => {
+  const xml = await readFile(file, 'utf-8');
+  const js = plist.parse(xml);
+  const html = pug.renderFile(PUG, {
+    pretty: true,
+    tracks: Object.values(js.Tracks)
+  });
+  const out = path.join(path.dirname(file), path.basename(file, path.extname(file)) + ".html");
+  await writeFile(out, html)
+  console.log(`${file} -> ${out}`);
+}))
+.then(
+  () => console.log('done'),
+  (er) => console.error('ERROR:', er))

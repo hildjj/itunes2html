@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2017-01-01T00:00:00Z</date>
+	<key>Application Version</key><string>12.6.0.100</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/nobody/Music/iTunes/iTunes%20Music/</string>
+	<key>Library Persistent ID</key><string>AAAAAAAAAAAAAAAA</string>
+	<key>Tracks</key>
+	<dict>
+		<key>1</key>
+		<dict>
+			<key>Track ID</key><integer>1</integer>
+			<key>Name</key><string>Twinkle, Twinkle Little Star Variations</string>
+			<key>Artist</key><string>Tsutsumi, Tsuyoshi</string>
+			<key>Composer</key><string>Mozart, Wolfgang Amadeus (1756-1791)</string>
+			<key>Album</key><string>Suzuki Cello School Vol. 1-2</string>
+			<key>Grouping</key><string>Suzuki</string>
+			<key>Genre</key><string>Classical</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1059259</integer>
+			<key>Total Time</key><integer>44042</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>66</integer>
+			<key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+			<key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>916</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>AAAAAAAAAAAAAAAA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/nobody/Music/iTunes/iTunes%20Music/Compilations/Suzuki%20Cello%20School%20Vol.%201-2/01%20Twinkle,%20Twinkle%20Little%20Star%20Variations.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+</plist>

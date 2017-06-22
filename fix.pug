@@ -1,0 +1,34 @@
+doctype html
+html
+  header
+    meta(charset="UTF-8")
+    title iTunes library
+    style.
+      body {
+        font-family: Arial, Helvetica;
+      }
+      table {
+        width: 90%;
+        margin-left: 5%;
+      }
+      td {
+        vertical-align: top;
+        padding-top: 5px;
+      }
+      th {
+        background: grey;
+        color: white;
+      }
+  body
+    table
+      tr
+        th Composer
+        th Artist
+        th Album
+        th Song
+      each track in tracks
+        tr
+          td= track.Composer
+          td= track.Artist
+          td= track.Album
+          td= track.Name
