@@ -2,7 +2,7 @@ Translate an iTunes XML export file to HTML.
 
 Install:
 
-    npm install itunes2html
+    npm install -g itunes2html
 
 Run:
 
