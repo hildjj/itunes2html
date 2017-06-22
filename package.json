@@ -1,10 +1,14 @@
 {
   "name": "itunes2html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translate an iTunes XML export file to HTML",
   "main": "index.js",
   "bin": "./fix",
-  "keywords": ["itunes", "xml", "html"],
+  "keywords": [
+    "itunes",
+    "xml",
+    "html"
+  ],
   "author": "Joe Hildebrand <joe-github@cursive.net>",
   "license": "MPL-2.0",
   "dependencies": {
